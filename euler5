@@ -1,0 +1,17 @@
+
+def checkDivisible(val):
+    counter = 0
+    for i in range(11,19):
+        if val % i != 0:
+            return False
+    return True
+
+answer = 20
+
+while (checkDivisible(answer) == False):
+    print(answer)
+    answer = answer + 20
+
+print(answer)
+
+        
