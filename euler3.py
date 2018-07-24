@@ -8,4 +8,5 @@ def max_prime_factor(val):
         max_factor = max_factor + 1 # try again with a bigger number
         
     return max_factor
-    
+
+print(max_prime_factor(600851475143))
